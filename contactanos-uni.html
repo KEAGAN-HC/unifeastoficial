@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniFeast</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/img/favicon-32x32.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d139bfcb49.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="container text-aviso">
+        <h1>Contacto - UniFeats</h1>
+    </header>
+
+    <section class="text-aviso">
+        <div>
+            <h2>Formulario de Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <input class="enviar-texto" type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div>
+            <h2>Otras formas de contacto</h2>
+            <p>Puedes contactarnos también por correo electrónico directamente a: <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                    target="_blank">unifeast_support@gmail.com</a></p>
+            <p>O visita nuestras redes sociales:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/alexis500000000000?locale=es_LA" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/unifeats" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/alexzs_yh/?hl=es-la" target="_blank">Instagram</a></li>
+            </ul>
+
+            <a href="index.html">Regresar Al Inicio</a>
+        </div>
+    </section>
+</body>
+
+</html>
